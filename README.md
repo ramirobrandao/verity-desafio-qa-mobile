@@ -1,0 +1,1 @@
+# verity-desafio-qa-mobile
