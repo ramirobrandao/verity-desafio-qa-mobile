@@ -18,7 +18,7 @@ Ele cobre os principais fluxos da aplicação:
 
 ## 📚 Documentação dos testes
 
-- Acessar o link: [Documentação Mobile Demo App - BDD](COLOCAR O LINK)
+- Acessar o link: [Documentação Mobile Demo App - BDD](https://github.com/ramirobrandao/verity-desafio-qa-mobile/blob/main/docs/Documenta%C3%A7%C3%A3o%20Mobile%20Demo%20App%20-%20BDD.pdf)
 
 ## ✅ Requisitos
 
