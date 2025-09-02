@@ -10,15 +10,17 @@ Ele cobre os principais fluxos da aplicação:
 - Visualizar Arquivo _(WebView)_ ✅
 - Acessar Sistema _(Login)_ ✅
 - Cadastro _(Signup)_ ✅
-- Formulários _(Form)_ ⌛️
-- Arrastar horizontal _(Swipe)_ ⌛️
-- Montar Quadro _(Drag)_ ⌛️
+- Formulários _(Form)_ 🚧
+- Arrastar horizontal _(Swipe)_ 🚧
+- Montar Quadro _(Drag)_ 🚧
 
 ---
 
 ## 📚 Documentação dos testes
 
 - Acessar o link: [Documentação Mobile Demo App - BDD](https://github.com/ramirobrandao/verity-desafio-qa-mobile/blob/main/docs/Documenta%C3%A7%C3%A3o%20Mobile%20Demo%20App%20-%20BDD.pdf)
+
+---
 
 ## ✅ Requisitos
 
@@ -41,10 +43,9 @@ Ele cobre os principais fluxos da aplicação:
 - **WebdriverIO**
 - **Appium** (com `UiAutomator2`)
 - **Mocha**
-- **Allure Report** ()
-- **BrowserStack** (execução de testes na nuvem)
+- **Allure Report** (relatórios)
 - **GitHub Actions** (integração contínua)
-- **BrowserStack** (em andamento...)
+- **BrowserStack** (em andamento... 🚧)
 
 ---
 
@@ -54,18 +55,6 @@ Ele cobre os principais fluxos da aplicação:
 git clone https://github.com/ramirobrandao/verity-desafio-qa-mobile.git
 cd verity-desafio-qa-mobile
 npm install
-```
-
----
-
-## ▶️ Como executar os testes
-
-### Android
-
-#### Executar todos os testes:
-
-```bash
-npm run wdio
 ```
 
 ### Appium não inicia automaticamente localmente
@@ -87,6 +76,16 @@ Abra o **Appium Inspector**, configure as capabilities:
   "appium:connectHardwareKeyboard": true
 }
 ```
+
+## ▶️ Como executar os testes
+
+### Android
+
+#### Executar todos os testes:
+
+```bash
+npm run wdio
+```
 ---
 
 ## 📊 Relatórios
@@ -100,9 +99,9 @@ npm allure:open
 ```
 📊 Resultado esperado do Allure:
 
-Resumo dos testes
-Screenshots das falhas
-Logs de execução
-Informações do ambiente
+- Resumo dos testes;
+- Screenshots das falhas;
+- Logs de execução;
+- Informações do ambiente.
 
 ---
